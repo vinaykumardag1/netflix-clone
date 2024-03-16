@@ -1,0 +1,14 @@
+.movies-list{
+    padding: 40px 30px;
+}
+.movie-images{
+    display: flex;
+    gap: 20px;
+    
+}
+.movie-images img{
+    transition: all ease 1s;
+}
+.movie-images img:hover{
+    transform: scale(1.1,1.1);
+}

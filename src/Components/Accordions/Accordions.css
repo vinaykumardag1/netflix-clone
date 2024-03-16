@@ -1,0 +1,25 @@
+*{
+    color: #ffff;
+}
+
+.faq{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.Accordion-box{
+    width: 70%;
+    background-color: #2d2d2d !important;
+    font-size: 25px;
+    margin: 5px 0px;
+}
+
+
+.para{
+    font-size: 25px;
+}
+@media screen and (max-width:900px) {
+    .Accordion-box{
+        width: 100%;
+    }
+}

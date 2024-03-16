@@ -1,0 +1,40 @@
+.card{
+    display: flex;
+    gap: 20px;
+}
+.card-head{
+    font-size: 2rem;
+    color: #fff;
+}
+.card-box{
+   color: #fff;
+}
+
+.card-box h2{
+    font-size: 1.9rem;
+}
+.card-box p{
+    font-size: 1rem;
+}
+.card-box span{
+    font-size: 1em;
+}
+.card-component{
+    background:linear-gradient(180deg,#7a2047 10%,#290f14);
+    width: 300px;
+    transition: 1s !important;
+    border-radius: 0.9rem !important;
+    margin-top: 20px;
+}
+.card-component:hover{
+    transform: scale(1.05,1.05); 
+    background:linear-gradient(180deg,#bb2a69 10%,#290f14);    
+}
+@media screen and (max-width:900px) {
+    .card{
+        flex-wrap: wrap !important;
+    }
+    .card-component{
+        width: 100%;
+    }
+}

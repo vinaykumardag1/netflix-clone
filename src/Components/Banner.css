@@ -1,0 +1,75 @@
+:root{
+    --white:#ffff;
+}
+.banner{
+    background-image: linear-gradient(rgba(30, 29, 29, 0.9),rgba(24, 23, 24, 0.6)), url('/src/assets/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    z-index: -1;
+}
+
+.banner-box{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.banner-head h1{
+    font-size: clamp(38px,6vw,58px);
+    font-weight: bolder;
+    margin: 20px;
+}
+.banner-head{
+    color: var(--white);
+    text-align: center;
+}
+.banner-head p{
+    font-size: clamp(20px,3vw,32px);
+    font-weight: 600;
+    margin: 20px;
+}
+.banner-head button{
+    background-color: #e50914;
+    border: none;
+    padding: 5px 0px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.banner-head input{
+  background-color: rgb(24, 22, 22);
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border:1px solid #2bb871;
+  color: aliceblue;
+  padding-top: 2px;
+}
+.banner-head input:focus{
+    border:2px solid;
+    color: aliceblue;
+    text-align: top;
+}
+.banner-head .form{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.banner-line{
+    padding-bottom:100px;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+}
+.banner-inline{
+    padding:5px 0px;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+
+@media screen and (max-width:900px) {
+
+    .banner-head .form{
+        flex-direction: column;
+    }
+}

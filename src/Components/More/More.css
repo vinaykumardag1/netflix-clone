@@ -1,0 +1,41 @@
+.container-sec{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.more-sec .more-head{
+    font-size: 2rem;
+    color: #ffff;
+    padding-top: 100px;
+    margin: 0;
+}
+.more-card span{
+    font-size: 2rem;
+    color: #fff;
+    padding: 10px 0px;
+}
+.more-card p{
+    font-size: 1rem;
+    color: #bcbac2;
+    padding: 10px 0px;
+}
+.svg{
+    display: flex;
+    justify-content: end;
+}
+.more-card-component{
+    width: 300px;
+    background: linear-gradient(120deg,#1e1529 10%,#1a1e3e );
+    transition: 1s !important;
+    border-radius: 0.9rem !important;
+    margin-top: 20px;
+
+}
+@media screen and (max-width:900px) {
+  .container-sec{
+    flex-wrap: wrap;
+  }
+  .more-card-component{
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+.dashnavsec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.dashnavbar svg{
+    height: 50px;
+    fill: #e50914;
+}
+.dashnavbar{
+    display: flex;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.nav-icons{
+    margin-right: 30px;
+}

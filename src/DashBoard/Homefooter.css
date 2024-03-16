@@ -1,0 +1,16 @@
+.social-media-icons{
+    display: flex;
+    gap: 30px;
+    padding: 40px 0px;
+}
+.home-footer{
+   padding: 30px 100px;
+}
+.home-footer .footer-grid{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    color: #ffff;
+    list-style: none;
+}

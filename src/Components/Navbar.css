@@ -1,0 +1,30 @@
+.navbar svg{
+    height: 50px;
+ 
+    fill: #e50914;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.signup-btn select{
+    background: transparent;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0px 10px;
+    text-align: center;
+}
+.signup-btn button{
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 0px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signup-btn{
+    display: flex;
+    gap: 20px;
+}

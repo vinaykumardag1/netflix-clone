@@ -1,0 +1,58 @@
+.container-banner{
+    background-image: url('./mainHomeimages/banner-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 30px;
+    opacity: 0.7;
+}
+.banner-data{
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+.banner-data button{
+ color: #0e0e0e;
+ padding: 10px 20px;
+ font-size: 1.3em;
+ border-radius: 10px;
+ border: none;
+ text-align: center;
+}
+.banner-data .more-info{
+    background-color: #585858;
+    color: #0e0e0e;
+}
+.banner-data .mui-svg{
+    fill: #0e0e0e;
+    font-size: 25px;
+}
+.container-banner hr{
+    border-radius: 1px;
+    
+}
+.genre-list li{
+    list-style: none;
+    padding-left: 100px;
+    font-size: 1.3em;
+}
+.genre-list .btn-list button{
+    background: transparent;
+    border:none;
+    border-radius: 50%;
+}
+.btn-list{
+    padding-top: 20px;
+}
+.genre-list .btn-list button:nth-child(1){
+    background-color: #fff;
+}
+.btn-list .mui-svg{
+   background-color: #0e0e0e;
+   border-radius: 50%;
+   border: none;
+   fill: #fff;
+  
+}
+
+.btn-list .svg-size{
+    font-size: 50px;
+}
