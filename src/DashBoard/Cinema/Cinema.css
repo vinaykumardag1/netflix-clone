@@ -1,5 +1,8 @@
 .cinema{
     padding: 40px 30px;
+    background-image: url('../Tvshows/Tvshowimages/movie-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .cinema img{
     margin-top: 20px;

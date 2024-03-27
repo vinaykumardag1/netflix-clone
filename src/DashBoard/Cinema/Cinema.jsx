@@ -9,7 +9,7 @@ import Movies from '../movies/Movies';
 const Cinema = () => {
   return (
     <>
-    <div className='new-movies'>
+    <div className='cinema'>
       <Dashnav/>
       <div className="header-top">
         <div className="tv-header">
