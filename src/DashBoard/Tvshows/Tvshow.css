@@ -1,0 +1,34 @@
+.tv-banner{
+    background-image: url('./Tvshowimages/demonslayer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 50px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tv-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+.tv-header h1{
+    font-size: 5rem;
+}
+.tv-header select{
+    background: transparent;
+    width: 200px;
+    height: 50px;
+    font-size: 1.4rem;
+}
+.sort{
+    display: flex;
+    gap: 20px;
+    padding: 5px 10px;
+    border: 1px solid #ffff;
+    align-items: center;
+    height:30px;
+}

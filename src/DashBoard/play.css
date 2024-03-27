@@ -1,0 +1,14 @@
+.play_plause{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btns button{
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(63, 61, 61);   
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
